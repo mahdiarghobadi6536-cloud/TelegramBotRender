@@ -11,13 +11,15 @@ async def help_command(update, context):
         "/start - شروع ربات\n"
         "/help - راهنمای دستورات"
     )
-
+async def love(updete, context):
+    await updete.message.reply_text("عاشقتم سحر (:")
 def main():
     app = Application.builder().token(TOKEN).build()
 
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("help", help_command))
-
+    app.add_handler(CommandHandler("یچی بهم بگو کیف کنم ",love))
+    
     app.run_polling()
 
 if __name__ == "__main__":
