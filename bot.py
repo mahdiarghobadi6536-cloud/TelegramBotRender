@@ -1,6 +1,5 @@
 from telegram.ext import Application, CommandHandler
 TOKEN = "8577813513:AAGQVgFm45nBLog6ZIK6Ui7fU8dqCiwGpxE"
-proxy =
 
 
 async def start(update, context):
