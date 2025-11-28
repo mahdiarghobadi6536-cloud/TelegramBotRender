@@ -18,7 +18,7 @@ def main():
 
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("help", help_command))
-    app.add_handler(CommandHandler("یچی بهم بگو کیف کنم ",love))
+    app.add_handler(CommandHandler("یچی_بهم_بگو_کیف_کنم ",love))
     
     app.run_polling()
 
